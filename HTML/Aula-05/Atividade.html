@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTO 2025</title>
+</head>
+<h1>SEJA BEM VINDO AO CONECTA + 2025</h1>
+<P>Este evento será realizado no dia 20 de janeiro de 2025, no Rio de Janeiro, e contará com a presença de diversas personalidades do mundo da tecnologia e inovação.
+        <p><strong>Para participar, é necessário ser do estado do Rio de Janeiro e ter pelo menos 18 anos.</strong></p>
+</P>
+<body>
+    
+    <form id="formulario" action="#" method="post" style="display:flex; flex-direction:column;align-items: start;gap: 20px;">
+
+        Por favor, siga as instruções abaixo e preencha as informações necessárias
+        
+        <label for="nome"> Nome Completo</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+       
+        <label for="idade"> Idade</label>
+        <input type="number" id="idade" name="idade" min="18" max="100" required placeholder="Digite sua idade"> 
+       
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu melhor e-mail">
+       
+        
+
+        <label for="Cidade"> Cidade </label>
+       <select id="cidade" name="cidade" required>
+        <option value="" selected disabled>Selecione uma cidade</option>
+        <option value="RJ"> Rio de Janeiro</option>
+        <option value="Petropolis"> Petrópolis</option>
+        <option value="Araruama"> Araruama</option>
+        <option value="Itapecirica">Itapecirica</option>
+        <option value="Niteroi"> Teresópolis</option>
+        <option value="Belford Roxo"> Campo Grande</option>
+        <option value="Nova Iguacu"> Nova Iguaçu</option>
+        <option value="Duque de Caxias"> Duque de Caxias</option>
+       </select>
+
+       <label for="Nivel de Escolaridade">Nivel de Escolaridade</label>
+         <select id="escolaridade" name="escolaridade" required>
+            <option value="" selected disabled>Selecione seu Nível de Escolaridade</option>
+            <option value="Ensino Medio"> Ensino Médio</option>
+            <option value="Ensino Tecnico"> Ensino Técnico</option>
+            <option value="Ensino Superior"> Ensino Superior</option>
+            <option value="Pós Graduação"> Outro</option>
+        </select>
+
+        <label> Área de Interesse</label>
+        
+        <div>
+            <input type="checkbox" name="interesse" id="Prog" value="Programação">
+            <label for="Prog"> Programação</label>
+        </div>
+        <div>
+            <input type="checkbox" name="interesse" id="design" value="Design">
+            <label for="design"> Design</label>
+        </div>
+        <div>
+            <input type="checkbox" name="interesse" id="Robo" value="Robótica">
+            <label for="Robo"> Robótica</label>
+        </div>
+        <div>
+            <input type="checkbox" name="interesse" id="jogo" value="Jogos Digitais">
+            <label for="jogo"> Jogos Digitais</label>
+        </div>
+        <div>
+            <input type="checkbox" name="interesse" id="ia" value="Inteligencia Artificial">
+            <label for="ia"> Inteligencia Artificial</label>
+        </div>
+
+        <label> Deseja Participar de Alguma Palestra Específica?</label>
+        
+        <div>
+            <input type="radio" name="Palestra" id="sim" value="Sim" />
+            <label for="sim">SIM</label>
+        </div>
+        <div>
+            <input type="radio" name="Palestra" id="nao" value="Não" checked/>
+            <label for="nao">Não</label>
+            
+            <h2>Por que quer participar deste evento?</h2>
+            
+        </div>
+
+
+        <label for="Mais"> Conte-nos mais sobre você</label>
+
+        <textarea name="Mais" id="Mais" rows="5" cols="50"placeholder="Faça uma breve apresentação"></textarea>
+
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Limpar</button>
+
+
+    </form>
+
+
+</body>
+</html>

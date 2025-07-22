@@ -1,0 +1,34 @@
+body {
+    background-color: #b3b3b3;
+}
+.item {
+    padding: 10px;
+    max-width: 400px; 
+    min-width: 200px; 
+    flex:1;
+}
+.item-1 {
+    background-color: lightblue;
+}
+.item-2 {
+    background-color: lightgreen;
+    /* align-self: center; /* Alinha o item 2 no centro do eixo cruzado */
+}
+.item-3 {
+    background-color: lightcoral;
+    flex: 3; /* O item 3 ocupará o dobro do espaço em relação aos outros itens */
+}
+
+.container {
+    width: 100%;
+    height:600px;
+    border: 4px dashed gray;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center; /* Eixo Principal */
+    align-items: stretch; /* Eixo Cruzado */
+    align-content: stretch;
+    gap: 15px;
+}

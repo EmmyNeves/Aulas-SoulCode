@@ -1,0 +1,21 @@
+body {
+    
+    background-image: url(https://i.pinimg.com/736x/94/bf/25/94bf251b3e62738fe00a2ebc8d4728c6.jpg);
+}
+h1 {
+  color: rgb(157, 98, 107);
+}
+
+.btn-magenta {
+  background-color: #d63384; 
+  border: none;
+  color: #fff;
+}
+
+.btn-magenta:hover {
+  background-color: #b62c70; 
+}
+
+thead th {
+  color: #615a5a !important;
+}

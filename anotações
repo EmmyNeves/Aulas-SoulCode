@@ -1,0 +1,7 @@
+ //comando pra abrir (npm init)
+// comando pra executar os comandos (npm run dev)
+// comando pra iinstalar a dependencia express (npm i express)
+// comando para instalar a dependencia que você já tem a partir do package-lock (npm install)
+
+
+//comando pra adicionar novas mudançaas a um repositório  no git   (git add -A), (git commit "teste"), (git push origin main)

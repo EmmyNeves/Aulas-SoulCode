@@ -1,0 +1,47 @@
+body{
+    background-color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif 
+}
+*{box-sizing: border-box;
+  margin: 0px auto;
+  padding: 0px;
+}
+h1{
+    margin: 15px;
+    text-align: center;
+}
+.galeria{
+    border: 20px solid white;
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    justify-content: center;
+    
+    /* padding: 20px;
+    display: flex;
+    border: 4px dashed gray;
+    max-width: 1200px;
+    min-width: 300px;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    flex:1 1;
+    gap: 15px;
+   */
+}
+.foto{
+   
+    max-width:  400px;
+    min-width: 300px ;
+    min-height: 300px;
+    object-fit: cover;
+    flex: 1;
+    
+    /* estica os itens, tem que colocar junto com max e min width */
+}
